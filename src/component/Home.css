@@ -1,0 +1,22 @@
+.heros{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)),url(../assets/4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 165px 2rem;
+}
+.card_title{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: cursive;
+}
+.card_text{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 700;
+}
+.healding_design{
+    justify-content: end;
+}
+.heading_div{
+    text-align: right;
+}

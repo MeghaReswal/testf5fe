@@ -1,0 +1,30 @@
+/* navbar */
+nav{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 999;
+    box-shadow: 0 0 15px #ccc !important;
+}
+.navbar-nav a{
+    font-size: 18px;
+    color: #000;
+}
+.logo_set{
+    width: 150px;
+}
+.logo_set img{
+    width: 100%;
+    
+}
+@media only screen and (min-width:300px) and (max-width:768px){
+    #navbarSupportedContent{
+        text-align: center;
+    }
+    .logo_set{
+        width: 100px;
+    }
+    .bi.bi-list{
+        font-size: 25px;
+    }
+   
+}
